@@ -35,7 +35,7 @@ By completing them all, you gain mastery in topics like:
 
 ## 🗂️ Repository Structure
 
-```text
+```
 /
 ├── Lab-001-SQL-Injection/
 │   ├── writeup.md
@@ -48,7 +48,7 @@ By completing them all, you gain mastery in topics like:
 │
 └── ...
 
-
+```
 
 Each lab has its own folder containing:
 - **writeup.md** → detailed solution steps  
