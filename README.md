@@ -35,15 +35,16 @@ By completing them all, you gain mastery in topics like:
 
 ## 🗂️ Repository Structure
 
+```text
 /
 ├── Lab-001-SQL-Injection/
-│ ├── writeup.md
-│ ├── payloads.txt
-│ └── screenshots/
+│   ├── writeup.md
+│   ├── payloads.txt
+│   └── screenshots/
 │
 ├── Lab-002-XSS/
-│ ├── writeup.md
-│ └── notes.md
+│   ├── writeup.md
+│   └── notes.md
 │
 └── ...
 
