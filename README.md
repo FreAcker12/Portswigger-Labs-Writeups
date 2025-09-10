@@ -22,14 +22,38 @@ The goal of this project is to help security enthusiasts, bug bounty hunters, an
 PortSwigger’s labs are the gold standard for learning **Web Application Security**.  
 By completing them all, you gain mastery in topics like:
 
-- SQL Injection  
-- Cross-Site Scripting (XSS)  
-- CSRF  
-- Authentication & Access Control flaws  
-- Server-Side vulnerabilities (SSRF, SSTI, etc.)  
-- Advanced logic bugs  
 
-…and much more.
+- **SQL Injection**  
+- **Cross-Site Scripting (XSS)**  
+- **Cross-Site Request Forgery (CSRF)**  
+- **Clickjacking & UI Redressing**  
+- **DOM-based vulnerabilities**  
+- **Cross-Origin Resource Sharing (CORS)**  
+- **XML External Entity (XXE) Injection**  
+- **Server-Side Request Forgery (SSRF)**  
+- **HTTP Request Smuggling**  
+- **OS Command Injection**  
+- **Server-Side Template Injection (SSTI)**  
+- **Path Traversal**  
+- **Authentication & Session flaws**  
+- **Access Control vulnerabilities**  
+- **WebSockets security issues**  
+- **Web Cache Poisoning**  
+- **Insecure Deserialization**  
+- **Information Disclosure**  
+- **Business Logic vulnerabilities**  
+- **HTTP Host Header Attacks**  
+- **OAuth Authentication flaws**  
+- **File Upload vulnerabilities**  
+- **JWT (JSON Web Token) issues**  
+- **Essential Skills (training/knowledge basics)**  
+- **Prototype Pollution**  
+- **GraphQL API vulnerabilities**  
+- **Race Conditions**  
+- **NoSQL Injection**  
+- **API Testing vulnerabilities**  
+- **Web LLM Attacks**  
+- **Web Cache Deception**  
 
 ---
 
@@ -70,7 +94,8 @@ By completing them all, you gain mastery in topics like:
 
 Each lab has its own folder containing:
 - **writeup.md** → detailed solution steps  
-- **payloads.txt** → tested payloads  
+- **payloads.txt** → tested payloads
+- **automation.py** → Code used to automate the lab/solve the lab
 - **screenshots/** → supporting images  
 
 ---
