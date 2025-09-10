@@ -37,16 +37,28 @@ By completing them all, you gain mastery in topics like:
 
 ```
 /
-├── Lab-001-SQL-Injection/
-│   ├── writeup.md
-│   ├── payloads.txt
-│   └── screenshots/
-│
-├── Lab-002-XSS/
-│   ├── writeup.md
-│   └── notes.md
-│
-└── ...
+├── SQL-Injection/
+  ├── Lab-001 - SQL injection vulnerability in WHERE clause allowing retrieval of hidden data/
+  │   ├── writeup.md
+  │   ├── payloads.txt
+  │   └── screenshots/
+  │
+  ├── Lab-002 - SQL injection vulnerability allowing login bypass/
+  │   ├── writeup.md
+  │   └── notes.md
+  │
+  └── ...
+├── Cross-site scripting/
+  ├── Lab-001 - Reflected XSS into HTML context with nothing encoded/
+  │   ├── writeup.md
+  │   ├── payloads.txt
+  │   └── screenshots/
+  │
+  ├── Lab-002 - Stored XSS into HTML context with nothing encoded/
+  │   ├── writeup.md
+  │   └── notes.md
+  │
+  └── ...
 
 ```
 
