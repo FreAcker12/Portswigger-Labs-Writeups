@@ -41,6 +41,7 @@ By completing them all, you gain mastery in topics like:
   ├── Lab-001 - SQL injection vulnerability in WHERE clause allowing retrieval of hidden data/
   │   ├── writeup.md
   │   ├── payloads.txt
+  │   ├── automation.py
   │   └── screenshots/
   │
   ├── Lab-002 - SQL injection vulnerability allowing login bypass/
