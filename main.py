@@ -147,7 +147,7 @@ if __name__ == "__main__":
             for lab in value:
                 try:
                     title = f"{lab.get('difficulty')}: {lab.get('title')}"
-                    ticket_id = add_ticket(auth, title, lab.get("url"))
+                    ticket_id = add_ticket(auth, title, lab.get("url"), USER_ID)
                     print(ticket_id)
                     move_issue_to_column(auth, ticket_id, column_id)
                 except Exception as e:
