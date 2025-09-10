@@ -3,34 +3,6 @@ import json
 import requests
 
 
-def parse_html(html_file):
-    html = open("labs.html", encoding="utf-8").read()  # replace with your file path
-
-    soup = BeautifulSoup(html, "html.parser")
-
-    labs_by_topic = {}
-    current_topic = None
-
-    for tag in soup.find_all(["h2", "div"]):
-        if tag.name == "h2":
-            current_topic = tag.get_text(strip=True)
-            labs_by_topic[current_topic] = []
-        elif tag.name == "div" and "widgetcontainer-lab-link" in tag.get("class", []):
-            lab_info = {
-                "difficulty": tag.find("span", class_=["label-light-green-small",
-                                                       "label-light-blue-small",
-                                                       "label-purple-small"]).get_text(strip=True),
-                "title": tag.find("a").get_text(strip=True),
-                "url": tag.find("a")["href"],
-                "status": tag.find("span", class_="lab-status-icon").get_text(strip=True)
-            }
-            labs_by_topic[current_topic].append(lab_info)
-
-    with open("labs_by_topic.json", "w", encoding="utf-8") as f:
-        json.dump(labs_by_topic, f, indent=4, ensure_ascii=False)
-
-
-
 def create_column(column_name):
     url = f"{JIRA_DOMAIN}/jsw2/graphql?operation=SoftwareColumnCreate"
 
