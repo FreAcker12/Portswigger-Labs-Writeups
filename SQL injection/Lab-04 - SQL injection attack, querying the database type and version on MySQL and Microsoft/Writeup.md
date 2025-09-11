@@ -1,4 +1,4 @@
-# SQL Injection – MySQL Version Enumeration (UNION-based)
+# SQL injection attack, querying the database type and version on MySQL and Microsoft
 
 A concise write-up using **my original steps** (verbatim) with small, accurate notes and payload blocks.
 
