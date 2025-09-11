@@ -1,4 +1,4 @@
-# SQL Injection – MySQL Enumeration to Admin Login (UNION-based)
+# SQL injection attack, listing the database contents on non-Oracle databases
 
 A concise write-up using **my original steps** (verbatim) with small, accurate notes and payload blocks.
 
