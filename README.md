@@ -62,13 +62,13 @@ By completing them all, you gain mastery in topics like:
 ```
 /
 ├── SQL-Injection/
-  ├── Lab-001 - SQL injection vulnerability in WHERE clause allowing retrieval of hidden data/
+  ├── Lab-01 - SQL injection vulnerability in WHERE clause allowing retrieval of hidden data/
   │   ├── writeup.md
   │   ├── payloads.txt
   │   ├── automation.py - (optional)
   │   └── screenshots/
   │
-  ├── Lab-002 - SQL injection vulnerability allowing login bypass/
+  ├── Lab-02 - SQL injection vulnerability allowing login bypass/
   │   ├── writeup.md
   │   ├── payloads.txt
   │   ├── automation.py - (optional)
@@ -76,13 +76,13 @@ By completing them all, you gain mastery in topics like:
   │
   └── ...
 ├── Cross-site scripting/
-  ├── Lab-001 - Reflected XSS into HTML context with nothing encoded/
+  ├── Lab-01 - Reflected XSS into HTML context with nothing encoded/
   │   ├── writeup.md
   │   ├── payloads.txt
   │   ├── automation.py - (optional)
   │   └── screenshots/
   │
-  ├── Lab-002 - Stored XSS into HTML context with nothing encoded/
+  ├── Lab-02 - Stored XSS into HTML context with nothing encoded/
   │   ├── writeup.md
   │   ├── payloads.txt
   │   ├── automation.py - (optional)
