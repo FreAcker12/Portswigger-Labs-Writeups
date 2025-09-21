@@ -1,0 +1,1 @@
+Blind SQL injection with out-of-band data exfiltration
